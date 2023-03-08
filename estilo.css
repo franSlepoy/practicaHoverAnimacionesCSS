@@ -1,0 +1,178 @@
+h1 {
+    font-family:'Roboto Mono', monospace;
+    font-size: 35px;
+    color: rgb(41, 41, 175);
+    background-color:rgb(182, 200, 216) ;
+    border-color: rgb(133, 140, 151);
+    border-style: solid;
+    display: inline-block;
+    border-radius: 10% ;
+    text-shadow: 3px 3px rgb(215, 215, 236) ;
+    box-shadow: 2px 2px 15px rgb(95, 97, 100);
+    text-align: center;
+    padding: 1px;
+    cursor: pointer;
+}
+
+.titulo {
+    position: relative;
+    left: 250px;
+}
+
+body {
+    background-color: rgb(16, 8, 39);
+}
+
+.contenedor {
+        display: flex;
+        perspective: 3000px;
+        perspective-origin: top;
+        width: 700px;
+        height: 400px;
+        position: relative;
+        background-color: rgb(140, 140, 156);
+        border-radius: 50%;
+        background-image: url(imagen/bigbang-hubble.jpg);
+        background-size: 200px;
+        box-shadow: 10px 15px 100px rgb(97, 174, 182);
+      
+}
+.translate {
+    position: absolute;
+    top: 80px;
+    left: 600px;
+
+}
+
+.translate :hover {
+    transition: all 6s;
+    transform: scale(3);
+    background-color: rgb(233, 168, 108);
+    text-shadow: rgb(15, 20, 26);
+    border-color: rgb(166, 235, 69);
+    border-style: solid;
+    border-radius: 300px;
+    box-shadow: 20px -10px 100px rgb(218, 178, 22);
+    height: 50px;
+    width: 50px;
+    
+}
+
+.rotate {
+    margin: 30px;
+    transition: all 10s;
+    position: absolute;
+    top: 500;
+    left: 250px;
+   }
+
+.rotate :hover {
+    transform: rotate(200deg);
+    transition: all 10s;
+    background-color: rgb(233, 168, 108);
+    text-shadow: rgb(15, 20, 26);
+    border-color: rgb(166, 235, 69);
+    border-style: solid;
+    border-radius: 300px;
+    box-shadow: 20px -10px 100px rgb(218, 178, 22);
+    }
+
+.scale {
+    margin: 60px;
+    transition: all 5s;
+    position: absolute;
+    top: 444px;
+    left: 333px;
+}
+.scale :hover {
+    transition: all 5s;
+    transform: scale(3, 5);
+    background-color: rgb(233, 168, 108);
+}
+.skew {
+    margin: 80px;
+    transition: all 4s;
+    position: absolute;
+    top: 344px;
+    left: 50px;
+
+}
+.skew :hover {
+    transition: all 4s;
+    transform: skew(10deg, 200deg);
+    background-color: rgb(233, 168, 108);
+}
+
+.mezcladito1{
+    margin: 20px 80px;
+    transition: all 4s;
+    position: absolute;
+    top: 30px;
+    left: 380px;
+}
+.mezcladito1 :hover {
+    transition: all 4s;
+    transform:  translateY(600px) rotate(66deg) scale(2) ;
+    background-color: rgb(233, 168, 108);
+}
+
+.mezcladito2 {
+    margin-top: 400px;
+    transition: 15s;
+    position: absolute;
+    left: 700px;
+    top: 0px;
+
+    
+}
+.mezcladito2 :hover {
+    
+    background-color: rgb(233, 168, 108);
+    
+    transition: 15s;
+  transform: translate3d(150px, 170px, 170px);
+  
+  
+
+    }
+.mezcladito3 {
+    transform:  rotateX(60deg) rotateZ(39deg);
+    transition: all 10s;
+    
+      
+}
+.mezcladito3 :hover {
+    transition: all 10s;
+    transform:  rotateX(60deg);
+    background-color: rgb(233, 168, 108);
+}
+.caja {
+    background-color: rgb(216, 106, 69);
+    border-color: rgb(166, 235, 69);
+    border-style: solid;
+    border-radius: 300px;
+    box-shadow: 20px -10px 100px rgb(218, 178, 22);
+    width: 300px;
+    height: 300px;
+    transition: all 15s;
+    transform-style: preserve-3d;
+    position:relative;
+    top: 0px;
+    left: 1100px;
+    
+}
+.letra {
+    width: 330px;
+    height: 330px;
+    transform: rotateY(50deg);
+    border-radius: 100px;
+    transition: all 30s;
+    position: absolute;
+    top: 40px;
+    left: 50px;
+}
+.caja :hover {
+    transition: all 30s;
+    transform: rotateY(2000deg);
+}
+
